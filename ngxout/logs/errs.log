@@ -1,0 +1,8 @@
+2015/07/13 14:00:44 [emerg] 7787#7787: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2015/07/13 14:00:44 [emerg] 7787#7787: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2015/07/13 14:00:44 [emerg] 7787#7787: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2015/07/13 14:00:44 [emerg] 7787#7787: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2015/07/13 14:00:44 [emerg] 7787#7787: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2015/07/13 14:00:44 [emerg] 7787#7787: still could not bind()
+2015/07/13 14:09:41 [notice] 7848#7848: signal process started
+2015/07/13 14:13:30 [emerg] 7872#7872: open() "/home/zhangbin/zbhome/SRS/http/ngxvod/ngxout/logs" failed (21: Is a directory)

@@ -1,0 +1,220 @@
+2015/07/13 14:14:59 [debug] 7879#7879: epoll add event: fd:7 op:1 ev:00002001
+2015/07/13 14:15:42 [debug] 7879#7879: accept on 0.0.0.0:8088, ready: 0
+2015/07/13 14:15:42 [debug] 7879#7879: posix_memalign: 08C47BA0:256 @16
+2015/07/13 14:15:42 [debug] 7879#7879: *1 accept: 172.16.34.208:46897 fd:3
+2015/07/13 14:15:42 [debug] 7879#7879: *1 event timer add: 3: 60000:2249125642
+2015/07/13 14:15:42 [debug] 7879#7879: *1 reusable connection: 1
+2015/07/13 14:15:42 [debug] 7879#7879: *1 epoll add event: fd:3 op:1 ev:80002001
+2015/07/13 14:15:42 [debug] 7879#7879: *1 http wait request handler
+2015/07/13 14:15:42 [debug] 7879#7879: *1 malloc: 08C4E338:1024
+2015/07/13 14:15:42 [debug] 7879#7879: *1 recv: fd:3 374 of 1024
+2015/07/13 14:15:42 [debug] 7879#7879: *1 reusable connection: 0
+2015/07/13 14:15:42 [debug] 7879#7879: *1 posix_memalign: 08C4E740:4096 @16
+2015/07/13 14:15:42 [debug] 7879#7879: *1 http process request line
+2015/07/13 14:15:42 [debug] 7879#7879: *1 http request line: "GET / HTTP/1.1"
+2015/07/13 14:15:42 [debug] 7879#7879: *1 http uri: "/"
+2015/07/13 14:15:42 [debug] 7879#7879: *1 http args: ""
+2015/07/13 14:15:42 [debug] 7879#7879: *1 http exten: ""
+2015/07/13 14:15:42 [debug] 7879#7879: *1 http process request header line
+2015/07/13 14:15:42 [debug] 7879#7879: *1 http header: "Host: 172.16.34.110:8088"
+2015/07/13 14:15:42 [debug] 7879#7879: *1 http header: "Connection: keep-alive"
+2015/07/13 14:15:42 [debug] 7879#7879: *1 http header: "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+2015/07/13 14:15:42 [debug] 7879#7879: *1 http header: "User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2369.0 Safari/537.36"
+2015/07/13 14:15:42 [debug] 7879#7879: *1 http header: "Accept-Encoding: gzip, deflate, sdch"
+2015/07/13 14:15:42 [debug] 7879#7879: *1 http header: "Accept-Language: en-US,en;q=0.8,zh-CN;q=0.6,zh;q=0.4,ja;q=0.2"
+2015/07/13 14:15:42 [debug] 7879#7879: *1 http header done
+2015/07/13 14:15:42 [debug] 7879#7879: *1 event timer del: 3: 2249125642
+2015/07/13 14:15:42 [debug] 7879#7879: *1 generic phase: 0
+2015/07/13 14:15:42 [debug] 7879#7879: *1 rewrite phase: 1
+2015/07/13 14:15:42 [debug] 7879#7879: *1 test location: "/"
+2015/07/13 14:15:42 [debug] 7879#7879: *1 using configuration "/"
+2015/07/13 14:15:42 [debug] 7879#7879: *1 http cl:-1 max:1048576
+2015/07/13 14:15:42 [debug] 7879#7879: *1 rewrite phase: 3
+2015/07/13 14:15:42 [debug] 7879#7879: *1 post rewrite phase: 4
+2015/07/13 14:15:42 [debug] 7879#7879: *1 generic phase: 5
+2015/07/13 14:15:42 [debug] 7879#7879: *1 generic phase: 6
+2015/07/13 14:15:42 [debug] 7879#7879: *1 generic phase: 7
+2015/07/13 14:15:42 [debug] 7879#7879: *1 access phase: 8
+2015/07/13 14:15:42 [debug] 7879#7879: *1 access phase: 9
+2015/07/13 14:15:42 [debug] 7879#7879: *1 access phase: 10
+2015/07/13 14:15:42 [debug] 7879#7879: *1 post access phase: 11
+2015/07/13 14:15:42 [debug] 7879#7879: *1 content phase: 12
+2015/07/13 14:15:42 [debug] 7879#7879: *1 content phase: 13
+2015/07/13 14:15:42 [debug] 7879#7879: *1 open index "/home/zhangbin/zbhome/SRS/http/ngxvod/ngxout/html/index.html"
+2015/07/13 14:15:42 [debug] 7879#7879: *1 internal redirect: "/index.html?"
+2015/07/13 14:15:42 [debug] 7879#7879: *1 rewrite phase: 1
+2015/07/13 14:15:42 [debug] 7879#7879: *1 test location: "/"
+2015/07/13 14:15:42 [debug] 7879#7879: *1 test location: "50x.html"
+2015/07/13 14:15:42 [debug] 7879#7879: *1 using configuration "/"
+2015/07/13 14:15:42 [debug] 7879#7879: *1 http cl:-1 max:1048576
+2015/07/13 14:15:42 [debug] 7879#7879: *1 rewrite phase: 3
+2015/07/13 14:15:42 [debug] 7879#7879: *1 post rewrite phase: 4
+2015/07/13 14:15:42 [debug] 7879#7879: *1 generic phase: 5
+2015/07/13 14:15:42 [debug] 7879#7879: *1 generic phase: 6
+2015/07/13 14:15:42 [debug] 7879#7879: *1 generic phase: 7
+2015/07/13 14:15:42 [debug] 7879#7879: *1 access phase: 8
+2015/07/13 14:15:42 [debug] 7879#7879: *1 access phase: 9
+2015/07/13 14:15:42 [debug] 7879#7879: *1 access phase: 10
+2015/07/13 14:15:42 [debug] 7879#7879: *1 post access phase: 11
+2015/07/13 14:15:42 [debug] 7879#7879: *1 content phase: 12
+2015/07/13 14:15:42 [debug] 7879#7879: *1 content phase: 13
+2015/07/13 14:15:42 [debug] 7879#7879: *1 content phase: 14
+2015/07/13 14:15:42 [debug] 7879#7879: *1 content phase: 15
+2015/07/13 14:15:42 [debug] 7879#7879: *1 content phase: 16
+2015/07/13 14:15:42 [debug] 7879#7879: *1 content phase: 17
+2015/07/13 14:15:42 [debug] 7879#7879: *1 http filename: "/home/zhangbin/zbhome/SRS/http/ngxvod/ngxout/html/index.html"
+2015/07/13 14:15:42 [debug] 7879#7879: *1 add cleanup: 08C4EFC4
+2015/07/13 14:15:42 [debug] 7879#7879: *1 http static fd: 12
+2015/07/13 14:15:42 [debug] 7879#7879: *1 http set discard body
+2015/07/13 14:15:42 [debug] 7879#7879: *1 HTTP/1.1 200 OK
+Server: nginx/1.9.2
+Date: Mon, 13 Jul 2015 06:15:42 GMT
+Content-Type: text/html
+Content-Length: 612
+Last-Modified: Tue, 16 Jun 2015 15:04:13 GMT
+Connection: keep-alive
+ETag: "55803aed-264"
+Accept-Ranges: bytes
+
+2015/07/13 14:15:42 [debug] 7879#7879: *1 write new buf t:1 f:0 08C4F0F8, pos 08C4F0F8, size: 237 file: 0, size: 0
+2015/07/13 14:15:42 [debug] 7879#7879: *1 http write filter: l:0 f:0 s:237
+2015/07/13 14:15:42 [debug] 7879#7879: *1 http output filter "/index.html?"
+2015/07/13 14:15:42 [debug] 7879#7879: *1 http copy filter: "/index.html?"
+2015/07/13 14:15:42 [debug] 7879#7879: *1 http postpone filter "/index.html?" BFC0E8A4
+2015/07/13 14:15:42 [debug] 7879#7879: *1 write old buf t:1 f:0 08C4F0F8, pos 08C4F0F8, size: 237 file: 0, size: 0
+2015/07/13 14:15:42 [debug] 7879#7879: *1 write new buf t:0 f:1 00000000, pos 00000000, size: 0 file: 0, size: 612
+2015/07/13 14:15:42 [debug] 7879#7879: *1 http write filter: l:1 f:0 s:849
+2015/07/13 14:15:42 [debug] 7879#7879: *1 http write filter limit 0
+2015/07/13 14:15:42 [debug] 7879#7879: *1 writev: 237 of 237
+2015/07/13 14:15:42 [debug] 7879#7879: *1 sendfile: @0 612
+2015/07/13 14:15:42 [debug] 7879#7879: *1 sendfile: 612 of 612 @0
+2015/07/13 14:15:42 [debug] 7879#7879: *1 http write filter 00000000
+2015/07/13 14:15:42 [debug] 7879#7879: *1 http copy filter: 0 "/index.html?"
+2015/07/13 14:15:42 [debug] 7879#7879: *1 http finalize request: 0, "/index.html?" a:1, c:2
+2015/07/13 14:15:42 [debug] 7879#7879: *1 http request count:2 blk:0
+2015/07/13 14:15:42 [debug] 7879#7879: *1 http finalize request: -4, "/index.html?" a:1, c:1
+2015/07/13 14:15:42 [debug] 7879#7879: *1 set http keepalive handler
+2015/07/13 14:15:42 [debug] 7879#7879: *1 http close request
+2015/07/13 14:15:42 [debug] 7879#7879: *1 http log handler
+2015/07/13 14:15:42 [debug] 7879#7879: *1 run cleanup: 08C4EFC4
+2015/07/13 14:15:42 [debug] 7879#7879: *1 file cleanup: fd:12
+2015/07/13 14:15:42 [debug] 7879#7879: *1 free: 08C4E740, unused: 1057
+2015/07/13 14:15:42 [debug] 7879#7879: *1 free: 08C4E338
+2015/07/13 14:15:42 [debug] 7879#7879: *1 hc free: 00000000 0
+2015/07/13 14:15:42 [debug] 7879#7879: *1 hc busy: 00000000 0
+2015/07/13 14:15:42 [debug] 7879#7879: *1 tcp_nodelay
+2015/07/13 14:15:42 [debug] 7879#7879: *1 reusable connection: 1
+2015/07/13 14:15:42 [debug] 7879#7879: *1 event timer add: 3: 65000:2249131106
+2015/07/13 14:15:42 [debug] 7879#7879: *1 post event 08C7CE48
+2015/07/13 14:15:42 [debug] 7879#7879: *1 delete posted event 08C7CE48
+2015/07/13 14:15:42 [debug] 7879#7879: *1 http keepalive handler
+2015/07/13 14:15:42 [debug] 7879#7879: *1 malloc: 08C4E338:1024
+2015/07/13 14:15:42 [debug] 7879#7879: *1 recv: fd:3 -1 of 1024
+2015/07/13 14:15:42 [debug] 7879#7879: *1 recv() not ready (11: Resource temporarily unavailable)
+2015/07/13 14:15:42 [debug] 7879#7879: *1 free: 08C4E338
+2015/07/13 14:15:43 [debug] 7879#7879: *1 http keepalive handler
+2015/07/13 14:15:43 [debug] 7879#7879: *1 malloc: 08C4E338:1024
+2015/07/13 14:15:43 [debug] 7879#7879: *1 recv: fd:3 351 of 1024
+2015/07/13 14:15:43 [debug] 7879#7879: *1 reusable connection: 0
+2015/07/13 14:15:43 [debug] 7879#7879: *1 posix_memalign: 08C4E740:4096 @16
+2015/07/13 14:15:43 [debug] 7879#7879: *1 event timer del: 3: 2249131106
+2015/07/13 14:15:43 [debug] 7879#7879: *1 http process request line
+2015/07/13 14:15:43 [debug] 7879#7879: *1 http request line: "GET /favicon.ico HTTP/1.1"
+2015/07/13 14:15:43 [debug] 7879#7879: *1 http uri: "/favicon.ico"
+2015/07/13 14:15:43 [debug] 7879#7879: *1 http args: ""
+2015/07/13 14:15:43 [debug] 7879#7879: *1 http exten: "ico"
+2015/07/13 14:15:43 [debug] 7879#7879: *1 http process request header line
+2015/07/13 14:15:43 [debug] 7879#7879: *1 http header: "Host: 172.16.34.110:8088"
+2015/07/13 14:15:43 [debug] 7879#7879: *1 http header: "Connection: keep-alive"
+2015/07/13 14:15:43 [debug] 7879#7879: *1 http header: "User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2369.0 Safari/537.36"
+2015/07/13 14:15:43 [debug] 7879#7879: *1 http header: "Accept: */*"
+2015/07/13 14:15:43 [debug] 7879#7879: *1 http header: "Referer: http://172.16.34.110:8088/"
+2015/07/13 14:15:43 [debug] 7879#7879: *1 http header: "Accept-Encoding: gzip, deflate, sdch"
+2015/07/13 14:15:43 [debug] 7879#7879: *1 http header: "Accept-Language: en-US,en;q=0.8,zh-CN;q=0.6,zh;q=0.4,ja;q=0.2"
+2015/07/13 14:15:43 [debug] 7879#7879: *1 http header done
+2015/07/13 14:15:43 [debug] 7879#7879: *1 generic phase: 0
+2015/07/13 14:15:43 [debug] 7879#7879: *1 rewrite phase: 1
+2015/07/13 14:15:43 [debug] 7879#7879: *1 test location: "/"
+2015/07/13 14:15:43 [debug] 7879#7879: *1 test location: "50x.html"
+2015/07/13 14:15:43 [debug] 7879#7879: *1 using configuration "/"
+2015/07/13 14:15:43 [debug] 7879#7879: *1 http cl:-1 max:1048576
+2015/07/13 14:15:43 [debug] 7879#7879: *1 rewrite phase: 3
+2015/07/13 14:15:43 [debug] 7879#7879: *1 post rewrite phase: 4
+2015/07/13 14:15:43 [debug] 7879#7879: *1 generic phase: 5
+2015/07/13 14:15:43 [debug] 7879#7879: *1 generic phase: 6
+2015/07/13 14:15:43 [debug] 7879#7879: *1 generic phase: 7
+2015/07/13 14:15:43 [debug] 7879#7879: *1 access phase: 8
+2015/07/13 14:15:43 [debug] 7879#7879: *1 access phase: 9
+2015/07/13 14:15:43 [debug] 7879#7879: *1 access phase: 10
+2015/07/13 14:15:43 [debug] 7879#7879: *1 post access phase: 11
+2015/07/13 14:15:43 [debug] 7879#7879: *1 content phase: 12
+2015/07/13 14:15:43 [debug] 7879#7879: *1 content phase: 13
+2015/07/13 14:15:43 [debug] 7879#7879: *1 content phase: 14
+2015/07/13 14:15:43 [debug] 7879#7879: *1 content phase: 15
+2015/07/13 14:15:43 [debug] 7879#7879: *1 content phase: 16
+2015/07/13 14:15:43 [debug] 7879#7879: *1 content phase: 17
+2015/07/13 14:15:43 [debug] 7879#7879: *1 http filename: "/home/zhangbin/zbhome/SRS/http/ngxvod/ngxout/html/favicon.ico"
+2015/07/13 14:15:43 [debug] 7879#7879: *1 add cleanup: 08C4EF90
+2015/07/13 14:15:43 [error] 7879#7879: *1 open() "/home/zhangbin/zbhome/SRS/http/ngxvod/ngxout/html/favicon.ico" failed (2: No such file or directory), client: 172.16.34.208, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "172.16.34.110:8088", referrer: "http://172.16.34.110:8088/"
+2015/07/13 14:15:43 [debug] 7879#7879: *1 http finalize request: 404, "/favicon.ico?" a:1, c:1
+2015/07/13 14:15:43 [debug] 7879#7879: *1 http special response: 404, "/favicon.ico?"
+2015/07/13 14:15:43 [debug] 7879#7879: *1 http set discard body
+2015/07/13 14:15:43 [debug] 7879#7879: *1 HTTP/1.1 404 Not Found
+Server: nginx/1.9.2
+Date: Mon, 13 Jul 2015 06:15:43 GMT
+Content-Type: text/html
+Content-Length: 570
+Connection: keep-alive
+
+2015/07/13 14:15:43 [debug] 7879#7879: *1 write new buf t:1 f:0 08C4EFDC, pos 08C4EFDC, size: 154 file: 0, size: 0
+2015/07/13 14:15:43 [debug] 7879#7879: *1 http write filter: l:0 f:0 s:154
+2015/07/13 14:15:43 [debug] 7879#7879: *1 http output filter "/favicon.ico?"
+2015/07/13 14:15:43 [debug] 7879#7879: *1 http copy filter: "/favicon.ico?"
+2015/07/13 14:15:43 [debug] 7879#7879: *1 http postpone filter "/favicon.ico?" 08C4F170
+2015/07/13 14:15:43 [debug] 7879#7879: *1 write old buf t:1 f:0 08C4EFDC, pos 08C4EFDC, size: 154 file: 0, size: 0
+2015/07/13 14:15:43 [debug] 7879#7879: *1 write new buf t:0 f:0 00000000, pos 08193240, size: 116 file: 0, size: 0
+2015/07/13 14:15:43 [debug] 7879#7879: *1 write new buf t:0 f:0 00000000, pos 08192B40, size: 52 file: 0, size: 0
+2015/07/13 14:15:43 [debug] 7879#7879: *1 write new buf t:0 f:0 00000000, pos 08192BC0, size: 402 file: 0, size: 0
+2015/07/13 14:15:43 [debug] 7879#7879: *1 http write filter: l:1 f:0 s:724
+2015/07/13 14:15:43 [debug] 7879#7879: *1 http write filter limit 0
+2015/07/13 14:15:43 [debug] 7879#7879: *1 writev: 724 of 724
+2015/07/13 14:15:43 [debug] 7879#7879: *1 http write filter 00000000
+2015/07/13 14:15:43 [debug] 7879#7879: *1 http copy filter: 0 "/favicon.ico?"
+2015/07/13 14:15:43 [debug] 7879#7879: *1 http finalize request: 0, "/favicon.ico?" a:1, c:1
+2015/07/13 14:15:43 [debug] 7879#7879: *1 set http keepalive handler
+2015/07/13 14:15:43 [debug] 7879#7879: *1 http close request
+2015/07/13 14:15:43 [debug] 7879#7879: *1 http log handler
+2015/07/13 14:15:43 [debug] 7879#7879: *1 free: 08C4E740, unused: 1193
+2015/07/13 14:15:43 [debug] 7879#7879: *1 free: 08C4E338
+2015/07/13 14:15:43 [debug] 7879#7879: *1 hc free: 00000000 0
+2015/07/13 14:15:43 [debug] 7879#7879: *1 hc busy: 00000000 0
+2015/07/13 14:15:43 [debug] 7879#7879: *1 reusable connection: 1
+2015/07/13 14:15:43 [debug] 7879#7879: *1 event timer add: 3: 65000:2249131173
+2015/07/13 14:15:43 [debug] 7879#7879: *1 post event 08C7CE48
+2015/07/13 14:15:43 [debug] 7879#7879: *1 delete posted event 08C7CE48
+2015/07/13 14:15:43 [debug] 7879#7879: *1 http keepalive handler
+2015/07/13 14:15:43 [debug] 7879#7879: *1 malloc: 08C4E338:1024
+2015/07/13 14:15:43 [debug] 7879#7879: *1 recv: fd:3 -1 of 1024
+2015/07/13 14:15:43 [debug] 7879#7879: *1 recv() not ready (11: Resource temporarily unavailable)
+2015/07/13 14:15:43 [debug] 7879#7879: *1 free: 08C4E338
+2015/07/13 14:15:45 [debug] 7879#7879: accept on 0.0.0.0:8088, ready: 0
+2015/07/13 14:15:45 [debug] 7879#7879: posix_memalign: 08C47CC0:256 @16
+2015/07/13 14:15:45 [debug] 7879#7879: *2 accept: 172.16.34.208:46896 fd:12
+2015/07/13 14:15:45 [debug] 7879#7879: *2 event timer add: 12: 60000:2249128636
+2015/07/13 14:15:45 [debug] 7879#7879: *2 reusable connection: 1
+2015/07/13 14:15:45 [debug] 7879#7879: *2 epoll add event: fd:12 op:1 ev:80002001
+2015/07/13 14:16:03 [debug] 7879#7879: *2 http wait request handler
+2015/07/13 14:16:03 [debug] 7879#7879: *2 malloc: 08C4E338:1024
+2015/07/13 14:16:03 [debug] 7879#7879: *2 recv: fd:12 0 of 1024
+2015/07/13 14:16:03 [info] 7879#7879: *2 client closed connection while waiting for request, client: 172.16.34.208, server: 0.0.0.0:8088
+2015/07/13 14:16:03 [debug] 7879#7879: *2 close http connection: 12
+2015/07/13 14:16:03 [debug] 7879#7879: *2 event timer del: 12: 2249128636
+2015/07/13 14:16:03 [debug] 7879#7879: *2 reusable connection: 0
+2015/07/13 14:16:03 [debug] 7879#7879: *2 free: 08C4E338
+2015/07/13 14:16:03 [debug] 7879#7879: *2 free: 08C47CC0, unused: 36
+2015/07/13 14:16:48 [debug] 7879#7879: *1 event timer del: 3: 2249131173
+2015/07/13 14:16:48 [debug] 7879#7879: *1 http keepalive handler
+2015/07/13 14:16:48 [debug] 7879#7879: *1 close http connection: 3
+2015/07/13 14:16:48 [debug] 7879#7879: *1 reusable connection: 0
+2015/07/13 14:16:48 [debug] 7879#7879: *1 free: 00000000
+2015/07/13 14:16:48 [debug] 7879#7879: *1 free: 08C47BA0, unused: 36
